@@ -1,7 +1,7 @@
 import SolarSystem.*;
 
 /**
- *  The solar system project implements a basic implementation of our solar system.
+ *  The solar system project implements a basic solar system.
  *
  * @author Ansel Alldredge
  * **/

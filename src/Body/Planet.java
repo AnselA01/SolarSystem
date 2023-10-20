@@ -19,10 +19,10 @@ public class Planet extends OrbitingBody {
             case VENUS -> new Planet(25, "#CD780F",Math.random() * 360, 100, 1.75, 0);
             case EARTH -> new Planet(25, "#465A3E",Math.random() * 360, 120, 1.5, 1);
             case MARS -> new Planet(20, "#F6805A",Math.random() * 360, 150, 1.25, 2);
-            case JUPITER -> new Planet(40, "#DDCBA8",Math.random() * 360, 190, 1, 3);
-            case SATURN -> new Planet(35, "#CAC096",Math.random() * 360, 250, 0.75, 2);
-            case URANUS -> new Planet(30, "#13CFD1",Math.random() * 360, 275, 0.5, 2);
-            case NEPTUNE -> new Planet(30, "#3F6CF7",Math.random() * 360, 300, 0.25, 2);
+            case JUPITER -> new Planet(40, "#DDCBA8",Math.random() * 360, 230, 1, 3);
+            case SATURN -> new Planet(35, "#CAC096",Math.random() * 360, 280, 0.75, 2);
+            case URANUS -> new Planet(30, "#13CFD1",Math.random() * 360, 350, 0.5, 2);
+            case NEPTUNE -> new Planet(30, "#3F6CF7",Math.random() * 360, 400, 0.25, 2);
         };
     }
     public Planet(int diameter, String color, double angleToParent, int distanceToParent, double velocity, int numberOfChildren) {

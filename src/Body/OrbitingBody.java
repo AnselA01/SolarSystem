@@ -1,6 +1,6 @@
 package Body;
 
-public class OrbitingBody extends AbstractBody {
+public abstract class OrbitingBody extends AbstractBody {
     int distanceToParent;
     double angleToParent;
     double velocity;

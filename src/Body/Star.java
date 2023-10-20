@@ -9,7 +9,7 @@ public class Star extends AbstractBody {
     }
 
     /**
-     * Draws a smiley face on top of the sun
+     * :)
      *
      * @param solarSystem the SolarSystem where to draw the face
      * */
