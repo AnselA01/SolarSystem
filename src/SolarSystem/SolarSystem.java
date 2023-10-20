@@ -1,3 +1,5 @@
+package SolarSystem;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.*;
@@ -19,7 +21,7 @@ public class SolarSystem extends JFrame
 
 	/**
 	 * Create a view of the Solar System.
-	 * Once an instance of the SolarSystem class is created,
+	 * Once an instance of the SolarSystem.SolarSystem class is created,
 	 * a window of the appropriate size is displayed, and
 	 * objects can be displayed in the solar system
 	 *
@@ -111,7 +113,7 @@ public class SolarSystem extends JFrame
 	
 	/**
 	 * Draws a round shape in the window at the given co-ordinates that represents an object in the solar system.
-	 * The SolarSystem class uses <i>Polar Co-ordinates</i> to represent the location
+	 * The SolarSystem.SolarSystem class uses <i>Polar Co-ordinates</i> to represent the location
 	 * of objects in the solar system.
 	 *
 	 * @param distance the distance from the sun to the object.
@@ -140,7 +142,7 @@ public class SolarSystem extends JFrame
 				System.out.println(" ********************************************************* ");
 				System.out.println("\n\n");
 				System.out.println("If you are't trying to add this many things");
-				System.out.println("to your SolarSystem, then you have probably");
+				System.out.println("to your SolarSystem.SolarSystem, then you have probably");
 				System.out.println("forgotten to call the finishedDrawing() method");
 				System.out.println("See the JavaDOC documentation for more information");
 				System.out.println("\n-- Joe");
@@ -158,7 +160,7 @@ public class SolarSystem extends JFrame
 
 	/**
 	 * Draws a round shape in the window at the given co-ordinates. 
-	 * The SolarSystem class uses <i>Polar Co-ordinates</i> to represent the location
+	 * The SolarSystem.SolarSystem class uses <i>Polar Co-ordinates</i> to represent the location
 	 * of objects in the solar system. This method operates in the same fashion as drawSolarObject, but
 	 * provides additional co-ordinates to allow the programmer to use an arbitrary point about which
 	 * the object orbits (e.g. a planet rather than the sun).
@@ -192,7 +194,7 @@ public class SolarSystem extends JFrame
 				System.out.println(" ********************************************************* ");
 				System.out.println("\n\n");
 				System.out.println("If you are't trying to add this many things");
-				System.out.println("to your SolarSystem, then you have probably");
+				System.out.println("to your SolarSystem.SolarSystem, then you have probably");
 				System.out.println("forgotten to call the finishedDrawing() method");
 				System.out.println("See the JavaDOC documentation for more information");
 				System.out.println("\n-- Joe");
